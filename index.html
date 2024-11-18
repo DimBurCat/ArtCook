@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+    <!--Подключаем стили-->
+    <link rel="stylesheet" href="styles.css">
+    <!--Подключаем шрифты-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400..700&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400..700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+    ArtCook - приложение с рецептами
+</title>
+</head>
+<body>
+    <header class="header"> <!--Шкапка-->
+        <article class="header_logo_container">
+            <img  class="header_logo_img" src="Photos/Logo.png" alt="Logo">
+            <article class="header_logo_text">
+                <h1 class="logo_text_ArtCook">ArtCook</h1>
+                <p class="logo_slogan">Ты тоже умеешь готовить</p>
+            </article>
+        </article>
+    </header>
+    <main class="main"> <!--Основной контент-->
+        <section class="main_container">
+            <article class="main_text_subcontainer">
+                <h1 class="main_text_ArtCook">ArtCook</h1>
+                <p class="main_text_explanation">Приложение с большим количеством рецептов самой разной выпечки, с которыми вы сможете порадовать себя и близких, а также поделиться собственным рецептом с окружающими!</p>
+            </article>
+            <article class="main_advantage_subcontainer">
+                    <h2 class="main_text_advantage">Наши достоинства:</h2>
+                <ul class="main_list_container">
+                    <li class="main_list_item">
+                        <img  class="main_img_Recept" src="Photos/Recept.png" alt="image">
+                        Более 200 тыс. рецептов на любой вкус!
+                    </li>
+                    <li class="main_list_item">
+                        <img  class="main_img_Instruction" src="Photos/Instruction.png" alt="image">
+                        Подробные инструкции к каждому рецепту - сможет приготовить даже новичок!
+                    </li>
+                    <li class="main_list_item">
+                        <img  class="main_img_Comunity" src="Photos/Comunity.png" alt="image">
+                        Активное и дружелюбное комюнити, которое делиться своими секретами в приготовлении блюд!
+                    </li>
+                </ul>
+            </article>
+        </section>
+        <article class="main_Placeholder">
+            <img class="main_Android_button" src="Photos/android_button.png" alt="image"></img>
+            <img class="main_ios_button" src="Photos/app_store_button_ru.png" alt="image"></img>
+        </article>
+        <section class="subscribe">
+			<article class="subscribe_container"> <!--Форум для заполнения-->
+				<h1 class="subscribe_text">Подпишитесь на нашу рассылку</h1>
+                <p class="subscribe_text_2">Получайте лучшие предложения и новости прямо на ваш email.</p>
+                <form class="main_subscribe_form">
+                <label for="email">Email</label>
+                <input	type="email" id="email" name="email" placeholder="Введите ваш email" required aria-label="Введите ваш email">
+                <button class="subscribe_button" type="submit">Подписаться</button>
+            </article>
+		</section>
+    </main>
+    <footer class="footer"> <!--Подвал с контактными данными-->
+        <article class="footer_container">
+            <p class="footer_text">Контакты: suppor@ArtCook.com | +7 (968) 513-60-72</p>
+            <p class="footer_text">&copy2024 ArtCook. Все права защищены.</p>
+        </article>
+    </footer>
+    <script src="script.js"></script> <!--Подключаем JS файл-->
+</body>
+</html>
